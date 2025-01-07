@@ -41,8 +41,8 @@ st.write("---")
 # my_list = [10,50,409] # Python list
 # my_dict = {'Number':[1,2,3], 'Color': ['Blue', 'Yellow', 'Green']} # python dictionary
 
-##### we will use pandas and numpy to generate a DataFrame. 
-##### For now, think of a DataFrame as a table with columns, rows and data.
+# #### we will use pandas and numpy to generate a DataFrame. 
+# #### For now, think of a DataFrame as a table with columns, rows and data.
 # import numpy as np
 # import pandas as pd 
 # np.random.seed(1)
@@ -80,7 +80,7 @@ st.write("---")
 #                         "Col2":np.random.randint(low=25,high=80,size=10)
 #                         })
 
-#### and will plot the data
+# ### and will plot the data
 # import matplotlib.pyplot as plt
 # import seaborn as sns  
 # st.write("* Plot with Matplotlib/Seaborn") # we create a figure and plot the data
@@ -179,19 +179,19 @@ st.write("---")
 
 
 
-#### You probably noticed there is not much value when you randomly create widgets
-#### The idea is to assign them to a variable, and this variable is used to interact with the application
+# ### You probably noticed there is not much value when you randomly create widgets
+# ### The idea is to assign them to a variable, and this variable is used to interact with the application
 # option = st.selectbox(label='Pick one:', options=[1,2,3,'A'], key="2")
 # st.write(f"* I see you selected {option}, and its type is {type(option)}")
 # st.write("---")
 
 
 
-#### you can create 'columns' (or split the row space) and assign multiple items/widgets
-#### you should use st.beta_columns() and inform amount of columns
-#### that will be assigned to individual variables, i.e.: if there were three columns, you would have col1, col2, col3
-#### you will define the content on each variable with the command "with:"
-#### this example prints a list in the first column and display a widget in the second column
+# ### you can create 'columns' (or split the row space) and assign multiple items/widgets
+# ### you should use st.beta_columns() and inform amount of columns
+# ### that will be assigned to individual variables, i.e.: if there were three columns, you would have col1, col2, col3
+# ### you will define the content on each variable with the command "with:"
+# ### this example prints a list in the first column and display a widget in the second column
 
 # col1, col2 = st.beta_columns(2)
 # with col1:
@@ -202,9 +202,9 @@ st.write("---")
 # st.write(f"* I see you selected {option}, and its type is {type(option)}")
 
 
-################################################################################
-### Display media ###
-################################################################################
+# ###############################################################################
+# ## Display media ###
+# ###############################################################################
 
 
 # st.image(image="https://static.streamlit.io/examples/cat.jpg",
